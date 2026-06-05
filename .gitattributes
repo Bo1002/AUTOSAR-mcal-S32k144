@@ -1,0 +1,23 @@
+# C source files: normalize to LF in repo
+*.c     text eol=lf
+*.h     text eol=lf
+*.s     text eol=lf
+
+# Scripts
+*.sh    text eol=lf
+*.bat   text eol=crlf
+
+# Linker scripts
+*.ld    text eol=lf
+
+# Makefiles
+Makefile    text eol=lf
+makefile    text eol=lf
+*.mk        text eol=lf
+
+# Binary files: no conversion
+*.elf   binary
+*.hex   binary
+*.bin   binary
+*.pdf   binary
+*.png   binary
