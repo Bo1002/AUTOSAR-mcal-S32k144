@@ -11767,6 +11767,11 @@ typedef struct {
 #define SCG_SPLLCFG_MULT_SHIFT                   (16U)
 #define SCG_SPLLCFG_MULT_WIDTH                   (5U)
 #define SCG_SPLLCFG_MULT(x)                      (((uint32_t)(((uint32_t)(x)) << SCG_SPLLCFG_MULT_SHIFT)) & SCG_SPLLCFG_MULT_MASK)
+
+#define SCG_SPLLCFG_SOURCE_MASK                  (0x1U)
+#define SCG_SPLLCFG_SOURCE_SHIFT                 (0U)
+#define SCG_SPLLCFG_SOURCE_WIDTH                 (1U)
+#define SCG_SPLLCFG_SOURCE(x)                    (((uint32_t)(((uint32_t)(x)) << SCG_SPLLCFG_SOURCE_SHIFT)) & SCG_SPLLCFG_SOURCE_MASK)
 /*! @} */
 
 /*!

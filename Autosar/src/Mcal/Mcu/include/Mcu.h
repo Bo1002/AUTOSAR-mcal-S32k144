@@ -14,11 +14,11 @@
 #define MCAL_MCU_INCLUDE_MCU_H_
 
 #include "Mcu_Types.h"
-#include "Compiler.h"
+#include "../../../Common/Compiler.h"
 #include "Mcu_Cfg.h"
 
 
-FUNC(void,MCU_CODE) Mcu_Init(P2CONST(Mcu_ClockConfigType, AUTOMATIC, MCU_APPL_CONST) ConfigPtr);
+FUNC(void,MCU_CODE) Mcu_Init(P2CONST(Mcu_ConfigType, AUTOMATIC, MCU_APPL_CONST) ConfigPtr);
 
 
 
@@ -38,6 +38,8 @@ FUNC(Mcu_ResetType,MCU_CODE) Mcu_GetResetReson(void);
 
 
 FUNC(Mcu_RawResetType,MCU_CODE) Mcu_GetResetRawValue(void); 
+
+
 
 #if (MCU_PERFORM_RESET_API == STD_ON)
 /**

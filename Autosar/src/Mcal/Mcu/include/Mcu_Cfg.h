@@ -12,7 +12,8 @@
 #ifndef MCU_CFG_H
 #define MCU_CFG_H
  
-#include "Std_Type.h"
+#include "../../../Common/Std_Type.h"
+
  
 /*******************************************************************************
  * MODULE VERSION INFO
@@ -108,6 +109,7 @@
 #define MCU_PCC_PORTC_ENABLE    STD_ON
 #define MCU_PCC_PORTD_ENABLE    STD_ON
 #define MCU_PCC_PORTE_ENABLE    STD_ON
+
 #define MCU_PCC_FLEXCAN0_ENABLE STD_ON
 #define MCU_PCC_ADC0_ENABLE     STD_ON
 #define MCU_PCC_LPSPI0_ENABLE   STD_OFF
